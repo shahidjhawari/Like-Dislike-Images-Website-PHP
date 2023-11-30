@@ -1,5 +1,5 @@
 <?php
-include('db.php');
+include('database.php');
 $res=mysqli_query($con,"select * from post");
 ?>
 <!DOCTYPE html>
