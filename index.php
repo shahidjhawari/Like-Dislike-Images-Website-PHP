@@ -32,7 +32,7 @@ $res=mysqli_query($con,"select * from post");
             <article class="col-xs-12 col-sm-6 col-md-3" id="post<?php echo $row['id']?>">
                <div class="panel panel-default">
                   <div class="panel-body">
-                     <img src="images/<?php echo $row['image']?>" alt="<?php echo $row['title']?>" />
+                     <img src="images/<?php echo $row['image']?>" width="300px" alt="<?php echo $row['title']?>" />
                      </a>
                   </div>
                   <div class="panel-footer">
