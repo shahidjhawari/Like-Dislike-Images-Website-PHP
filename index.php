@@ -1,3 +1,7 @@
+<?php
+include('db.php');
+$res=mysqli_query($con,"select * from post");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
