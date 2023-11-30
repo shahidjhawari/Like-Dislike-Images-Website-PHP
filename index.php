@@ -61,7 +61,7 @@ $res=mysqli_query($con,"select * from post");
     <script>
         function setLikeDislike(type,id){
     jQuery.ajax({
-        url:'setLikeDislike.php',
+        url:'like_page.php',
         type:'post',
         data:'type='+type+'&id='+id,
         success:function(result){
