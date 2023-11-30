@@ -10,6 +10,9 @@ $res=mysqli_query($con,"select * from post");
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.bundle.js">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="css/style.css" rel="stylesheet" id="bootstrap-css">
     <title>Document</title>
 </head>
 <body>
